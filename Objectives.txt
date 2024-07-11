@@ -1,0 +1,20 @@
+QUESTION: Is the distribution of refugees across Europe Union balanced?
+Q: Are there countries that host the majority of refugees?
+SUB1: Is the refugees distribution affected by the host country's distance to the refugee's origin country?
+SUB2: Is the refugees distribution affected by the host country's wealth?
+
+PACKAGE: Integrate r package - refugees
+
+q - from population - linear graph from 2000 onward of each country + piechart of refugees for each country in 2023
+q - bar chart of refugees for each country in 2023 + calibrated bar graph on country size in 2023
+q - network graph (not weighted) -> make different size of vertices based on piechart (internal and external movement)
+q - network graph (weighted) -> different color of edges based on percentage of refugees of that country transferred (internal movement) + different size of vertices based on total refugees (piechart)
+sub1 - find dataset with distance - create correlation graph (distance vs refugees) -> refugees on first trip (no relocation)
+sub2 - find dataset on wealth - create correlation graph (wealth vs refugees) -> first trip and relocation
+
+Data cleaning ->
+- get data for our objective (only eu countries)
+- get data from this century (from 2000 onward)
+- transform NA entries to 0
+- rename lengthy values
+- remove unnecessary columns
